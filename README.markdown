@@ -1,5 +1,9 @@
 # Hop To It
 ##Fast time tracking for Mac OS X
+##Dependency
+
+https://github.com/binarygod/BGHUDAppKit
+
 ##Usage
 
 Bring up the entry window using the menu bar or with the hotkeys shift+command+space or command+option+right arrow
