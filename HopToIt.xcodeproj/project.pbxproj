@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		341587D112FA61A30064A748 /* HtiMenuletController.m in Sources */ = {isa = PBXBuildFile; fileRef = 341587D012FA61A30064A748 /* HtiMenuletController.m */; };
+		3415881A12FA6C3A0064A748 /* HtiPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3415881912FA6C3A0064A748 /* HtiPanel.m */; };
+		3415882912FA6EBA0064A748 /* hop3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3415882812FA6EBA0064A748 /* hop3.png */; };
+		348337DC12FF371000885604 /* HtiTimeEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 348337DB12FF371000885604 /* HtiTimeEntry.m */; };
+		34883C5B12FB26B400480E36 /* HtiUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 34883C5A12FB26B400480E36 /* HtiUtilities.m */; };
+		34883C6112FB272800480E36 /* NSFileManager+DirectoryLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 34883C6012FB272800480E36 /* NSFileManager+DirectoryLocations.m */; };
+		34883C6412FB293800480E36 /* HtiTimeTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 34883C6312FB293800480E36 /* HtiTimeTracker.m */; };
+		34F1CFB412F7A0FE00A697A1 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F1CFB312F7A0FE00A697A1 /* Carbon.framework */; };
+		34F1D02512F7A58000A697A1 /* BGHUDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F1D02412F7A58000A697A1 /* BGHUDAppKit.framework */; };
+		34F1D04812F7A58A00A697A1 /* BGHUDAppKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 34F1D02412F7A58000A697A1 /* BGHUDAppKit.framework */; };
+		34F1D06212F7A5D700A697A1 /* BGHUDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F1D06112F7A5D700A697A1 /* BGHUDAppKit.framework */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		34F1D06E12F7A64200A697A1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				34F1D04812F7A58A00A697A1 /* BGHUDAppKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* HopToIt_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HopToIt_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		341587CF12FA61A30064A748 /* HtiMenuletController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtiMenuletController.h; sourceTree = "<group>"; };
+		341587D012FA61A30064A748 /* HtiMenuletController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtiMenuletController.m; sourceTree = "<group>"; };
+		3415881812FA6C3A0064A748 /* HtiPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtiPanel.h; sourceTree = "<group>"; };
+		3415881912FA6C3A0064A748 /* HtiPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtiPanel.m; sourceTree = "<group>"; };
+		3415882812FA6EBA0064A748 /* hop3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hop3.png; sourceTree = "<group>"; };
+		348337DA12FF371000885604 /* HtiTimeEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtiTimeEntry.h; sourceTree = "<group>"; };
+		348337DB12FF371000885604 /* HtiTimeEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtiTimeEntry.m; sourceTree = "<group>"; };
+		34883C5912FB26B400480E36 /* HtiUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtiUtilities.h; sourceTree = "<group>"; };
+		34883C5A12FB26B400480E36 /* HtiUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtiUtilities.m; sourceTree = "<group>"; };
+		34883C5F12FB272800480E36 /* NSFileManager+DirectoryLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+DirectoryLocations.h"; sourceTree = "<group>"; };
+		34883C6012FB272800480E36 /* NSFileManager+DirectoryLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+DirectoryLocations.m"; sourceTree = "<group>"; };
+		34883C6212FB293800480E36 /* HtiTimeTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtiTimeTracker.h; sourceTree = "<group>"; };
+		34883C6312FB293800480E36 /* HtiTimeTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtiTimeTracker.m; sourceTree = "<group>"; };
+		34F1CFB312F7A0FE00A697A1 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		34F1D02412F7A58000A697A1 /* BGHUDAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BGHUDAppKit.framework; sourceTree = "<group>"; };
+		34F1D06112F7A5D700A697A1 /* BGHUDAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BGHUDAppKit.framework; path = /Users/matthew/Documents/sandbox/haunted_robot/HopToIt/BGHUDAppKit/build/Release/BGHUDAppKit.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* HopToIt-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HopToIt-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* HopToIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HopToIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				34F1CFB412F7A0FE00A697A1 /* Carbon.framework in Frameworks */,
+				34F1D02512F7A58000A697A1 /* BGHUDAppKit.framework in Frameworks */,
+				34F1D06212F7A5D700A697A1 /* BGHUDAppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				341587CF12FA61A30064A748 /* HtiMenuletController.h */,
+				341587D012FA61A30064A748 /* HtiMenuletController.m */,
+				3415881812FA6C3A0064A748 /* HtiPanel.h */,
+				3415881912FA6C3A0064A748 /* HtiPanel.m */,
+				34883C5912FB26B400480E36 /* HtiUtilities.h */,
+				34883C5A12FB26B400480E36 /* HtiUtilities.m */,
+				34883C6212FB293800480E36 /* HtiTimeTracker.h */,
+				34883C6312FB293800480E36 /* HtiTimeTracker.m */,
+				348337DA12FF371000885604 /* HtiTimeEntry.h */,
+				348337DB12FF371000885604 /* HtiTimeEntry.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* HopToIt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* HopToIt */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				34F1D06112F7A5D700A697A1 /* BGHUDAppKit.framework */,
+			);
+			name = HopToIt;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				34883C5E12FB272800480E36 /* NSFileManager_DirectoryLocations */,
+				256AC3F00F4B6AF500CF3369 /* HopToIt_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3415882812FA6EBA0064A748 /* hop3.png */,
+				8D1107310486CEB800E47090 /* HopToIt-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34F1D02412F7A58000A697A1 /* BGHUDAppKit.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				34F1CFB312F7A0FE00A697A1 /* Carbon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34883C5E12FB272800480E36 /* NSFileManager_DirectoryLocations */ = {
+			isa = PBXGroup;
+			children = (
+				34883C5F12FB272800480E36 /* NSFileManager+DirectoryLocations.h */,
+				34883C6012FB272800480E36 /* NSFileManager+DirectoryLocations.m */,
+			);
+			path = NSFileManager_DirectoryLocations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* HopToIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "HopToIt" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				34F1D06E12F7A64200A697A1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HopToIt;
+			productInstallPath = "$(HOME)/Applications";
+			productName = HopToIt;
+			productReference = 8D1107320486CEB800E47090 /* HopToIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HopToIt" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* HopToIt */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* HopToIt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				3415882912FA6EBA0064A748 /* hop3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				341587D112FA61A30064A748 /* HtiMenuletController.m in Sources */,
+				3415881A12FA6C3A0064A748 /* HtiPanel.m in Sources */,
+				34883C5B12FB26B400480E36 /* HtiUtilities.m in Sources */,
+				34883C6112FB272800480E36 /* NSFileManager+DirectoryLocations.m in Sources */,
+				34883C6412FB293800480E36 /* HtiTimeTracker.m in Sources */,
+				348337DC12FF371000885604 /* HtiTimeEntry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../BGHUDAppKit/build/Debug\"",
+					"\"$(SRCROOT)/../BGHUDAppKit/build/Release_10.6_10.5_32_64_GC_embed\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../BGHUDAppKit/build/Release\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HopToIt_Prefix.pch;
+				INFOPLIST_FILE = "HopToIt-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = HopToIt;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../BGHUDAppKit/build/Debug\"",
+					"\"$(SRCROOT)/../BGHUDAppKit/build/Release_10.6_10.5_32_64_GC_embed\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../BGHUDAppKit/build/Release\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HopToIt_Prefix.pch;
+				INFOPLIST_FILE = "HopToIt-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = HopToIt;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "HopToIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HopToIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
