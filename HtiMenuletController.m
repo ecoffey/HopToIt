@@ -138,6 +138,7 @@ OSStatus MyHotKeyHandler(EventHandlerCallRef nextHandler,EventRef theEvent, void
 		if ([command isCaseInsensitiveLike:@"stop"]) {
 			NSLog(@"stop");
 			[timeTracker stopCurrentEntry];
+			[self toggleHud];
 		}else if ([command isCaseInsensitiveLike:@"list"]) {
 			NSLog(@"list");
 			currentTableState = TodayList;

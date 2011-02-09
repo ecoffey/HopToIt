@@ -18,27 +18,29 @@
 	}else{
 		[super sendEvent:event];
 	}
-	//
 }
 
 - (void) toggleVisible{
 	if ([self isVisible]) {
+		[inputField setStringValue:@""];
 		[menuletController goingHidden];
 		[self setIsVisible:NO];
 
 	}else {
 		[self setIsVisible:YES];
-		[inputField setStringValue:@""];
-		[self makeFirstResponder: inputField];
+		[self makeKeyAndOrderFront:nil];
+		[[NSApplication sharedApplication] activateIgnoringOtherApps : YES];
 	}
 
 }
 
 - (BOOL)control:(NSControl *)control textShouldEndEditing:(NSText *)fieldEditor{
-	NSLog(@"textShouldEndEditing %@", [fieldEditor string]);
-	[menuletController newEntry:[fieldEditor string]];
-	//[self toggleVisible];
-	return YES;
+	if ([[fieldEditor string] length] > 0) {
+		[menuletController newEntry:[fieldEditor string]];
+		return YES;
+	}else{
+		return NO;
+	}
 }
 
 @end

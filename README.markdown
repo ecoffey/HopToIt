@@ -1,8 +1,5 @@
 # Hop To It
 ##Fast time tracking for Mac OS X
-##Dependency
-
-https://github.com/binarygod/BGHUDAppKit
 
 ##Usage
 
