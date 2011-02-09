@@ -8,7 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 #import <Carbon/Carbon.h>
-#import <BGHUDAppKit/BGHUDAppKit.h>
 
 @class HtiPanel, HtiTimeTracker, HtiTimeEntry;
 

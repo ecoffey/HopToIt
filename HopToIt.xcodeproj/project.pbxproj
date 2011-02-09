@@ -16,8 +16,6 @@
 		34883C6112FB272800480E36 /* NSFileManager+DirectoryLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 34883C6012FB272800480E36 /* NSFileManager+DirectoryLocations.m */; };
 		34883C6412FB293800480E36 /* HtiTimeTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 34883C6312FB293800480E36 /* HtiTimeTracker.m */; };
 		34F1CFB412F7A0FE00A697A1 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F1CFB312F7A0FE00A697A1 /* Carbon.framework */; };
-		34F1D02512F7A58000A697A1 /* BGHUDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F1D02412F7A58000A697A1 /* BGHUDAppKit.framework */; };
-		34F1D04812F7A58A00A697A1 /* BGHUDAppKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 34F1D02412F7A58000A697A1 /* BGHUDAppKit.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -30,7 +28,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				34F1D04812F7A58A00A697A1 /* BGHUDAppKit.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +56,6 @@
 		34883C6212FB293800480E36 /* HtiTimeTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtiTimeTracker.h; sourceTree = "<group>"; };
 		34883C6312FB293800480E36 /* HtiTimeTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtiTimeTracker.m; sourceTree = "<group>"; };
 		34F1CFB312F7A0FE00A697A1 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
-		34F1D02412F7A58000A697A1 /* BGHUDAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BGHUDAppKit.framework; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* HopToIt-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HopToIt-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* HopToIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HopToIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -71,7 +67,6 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				34F1CFB412F7A0FE00A697A1 /* Carbon.framework in Frameworks */,
-				34F1D02512F7A58000A697A1 /* BGHUDAppKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +152,6 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				34F1D02412F7A58000A697A1 /* BGHUDAppKit.framework */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 				34F1CFB312F7A0FE00A697A1 /* Carbon.framework */,
